@@ -1,0 +1,8 @@
+<PARAMETERS>
+A0, 1
+A1, 1
+KD, 1
+n, 1
+<FORMULA>
+# a binding isotherm
+y = A0 + A1 * x**n /(x**n + KD**n)

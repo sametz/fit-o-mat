@@ -1,0 +1,582 @@
+>>>labelXShow
+True
+>>>labelXColor
+[0.2, 0.2, 0.2, 1.0]
+>>>labelXSize
+12.0
+>>>labelYShow
+True
+>>>labelYColor
+[0.2, 0.2, 0.2, 1.0]
+>>>labelYSize
+12.0
+>>>labelXWeight
+'normal'
+>>>labelYWeight
+'normal'
+>>>labelXStyle
+'normal'
+>>>labelYStyle
+'normal'
+>>>labelXVariant
+'normal'
+>>>labelYVariant
+'normal'
+>>>labelXAlignment
+'center'
+>>>labelYAlignment
+'center'
+>>>labelXAlignmentVertical
+'top'
+>>>labelYAlignmentVertical
+'baseline'
+>>>labelXPad
+4.0
+>>>labelYPad
+4.0
+>>>labelXPos
+0.5
+>>>labelYPos
+0.5
+>>>labelXAngle
+0.0
+>>>labelYAngle
+90.0
+>>>axisVisible
+{'left': True, 'right': False, 'bottom': True, 'top': False, 'left2': False, 'right2': True}
+>>>axisColor
+{'left': [0.2, 0.2, 0.2, 1.0], 'right': [0.2, 0.2, 0.2, 1.0], 'bottom': [0.2, 0.2, 0.2, 1.0], 'top': [0.2, 0.2, 0.2, 1.0], 'left2': [0.2, 0.2, 0.2, 1.0], 'right2': [0.2, 0.2, 0.2, 1.0]}
+>>>axisPosition
+{'left': 'axes', 'right': 'axes', 'bottom': 'axes', 'top': 'axes', 'left2': 'axes', 'right2': 'axes'}
+>>>axisPositionValue
+{'left': 0.0, 'right': 1.0, 'bottom': 0.0, 'top': 1.0, 'left2': 0.0, 'right2': 1.0}
+>>>axisWidth
+{'left': 1.0, 'right': 1.0, 'bottom': 1.0, 'top': 1.0, 'left2': 1.0, 'right2': 1.0}
+>>>axisStyle
+{'left': 'solid', 'right': 'solid', 'bottom': 'solid', 'top': 'solid', 'left2': 'solid', 'right2': 'solid'}
+>>>axisDashStyle
+{'left': 'projecting', 'right': 'projecting', 'bottom': 'projecting', 'top': 'projecting', 'left2': 'projecting', 'right2': 'projecting'}
+>>>ticksX
+[-0.02, 0.0, 0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14]
+>>>ticksXShow
+True
+>>>ticksXColor
+[0.2, 0.2, 0.2, 1.0]
+>>>ticksXSize
+11.0
+>>>ticksXAngle
+0.0
+>>>ticksXWeight
+'normal'
+>>>ticksYWeight
+'normal'
+>>>ticksXStyle
+'normal'
+>>>ticksYStyle
+'normal'
+>>>ticksXAlignment
+'center'
+>>>ticksXAlignmentVertical
+'top'
+>>>ticksXPad
+4.0
+>>>ticksXPad2
+0.0
+>>>ticksXLabel
+[]
+>>>ticksXAuto
+True
+>>>ticksXMinor
+2
+>>>ticksXFormat
+'default'
+>>>ticksYFormat
+'default'
+>>>ticksY2Format
+'default'
+>>>ticksResidYFormat
+'default'
+>>>ticksXFormatPrecision
+2
+>>>ticksYFormatPrecision
+2
+>>>ticksY2FormatPrecision
+2
+>>>ticksResidYFormatPrecision
+2
+>>>ticksXFormatTrailZero
+False
+>>>ticksYFormatTrailZero
+False
+>>>ticksY2FormatTrailZero
+True
+>>>ticksResidYFormatTrailZero
+False
+>>>ticksXFormatSeparator
+False
+>>>ticksYFormatSeparator
+False
+>>>ticksY2FormatSeparator
+False
+>>>ticksResidYFormatSeparator
+False
+>>>ticksXFormatPrefix
+''
+>>>ticksYFormatPrefix
+''
+>>>ticksY2FormatPrefix
+''
+>>>ticksResidYFormatPrefix
+''
+>>>ticksXFormatPostfix
+''
+>>>ticksYFormatPostfix
+''
+>>>ticksY2FormatPostfix
+''
+>>>ticksResidYFormatPostfix
+''
+>>>ticksXFormat000div
+'default'
+>>>ticksXFormatPrecision000div
+2
+>>>ticksXFormatTrailZero000div
+True
+>>>ticksXFormatSeparator000div
+False
+>>>ticksXFormatPrefix000div
+''
+>>>ticksXFormatPostfix000div
+''
+>>>ticksX000div
+[0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+>>>ticksXShow000div
+True
+>>>ticksXAuto000div
+True
+>>>ticksXLabel000div
+[]
+>>>ticksXMinor000div
+2
+>>>ticksY
+[0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2]
+>>>ticksYShow
+True
+>>>ticksResidYShow
+True
+>>>ticksYColor
+[0.2, 0.2, 0.2, 1.0]
+>>>ticksYSize
+11.0
+>>>ticksYAngle
+0.0
+>>>ticksYAlignment
+'right'
+>>>ticksYAlignmentVertical
+'center'
+>>>ticksYPad
+4.0
+>>>ticksYPad2
+0.0
+>>>ticksYAuto
+True
+>>>ticksYMinor
+2
+>>>ticksY2Minor
+2
+>>>ticksResidY
+[-0.0001, -5e-05, 0.0, 5e-05, 0.0001]
+>>>ticksResidYAuto
+True
+>>>ticksVisible
+{'left': True, 'right': False, 'bottom': True, 'top': False, 'left2': False, 'right2': True}
+>>>ticksResidYMinor
+2
+>>>ticksDirection
+{'left': 'out', 'right': 'out', 'bottom': 'out', 'top': 'out', 'left2': 'in', 'right2': 'in'}
+>>>ticksColor
+{'left': [0.2, 0.2, 0.2, 1.0], 'right': [0.2, 0.2, 0.2, 1.0], 'bottom': [0.2, 0.2, 0.2, 1.0], 'top': [0.2, 0.2, 0.2, 1.0], 'left2': [0.2, 0.2, 0.2, 1.0], 'right2': [0.2, 0.2, 0.2, 1.0]}
+>>>ticksWidth
+{'left': 0.5, 'right': 0.5, 'bottom': 0.5, 'top': 0.5, 'left2': 0.5, 'right2': 0.5}
+>>>ticksLength
+{'left': 5.0, 'right': 5.0, 'bottom': 5.0, 'top': 5.0, 'left2': 5.0, 'right2': 5.0}
+>>>ticksXMinorRelativeLength
+0.5
+>>>ticksYMinorRelativeLength
+0.5
+>>>ticksY2MinorRelativeLength
+0.5
+>>>ticksResidYMinorRelativeLength
+0.5
+>>>gridVisible
+{'x': False, 'x2': False, 'y': False, 'y2': False}
+>>>gridColor
+{'x': [1.0, 1.0, 1.0, 1.0], 'x2': [0.2, 0.2, 0.2, 1.0], 'y': [1.0, 1.0, 1.0, 1.0], 'y2': [1.0, 1.0, 1.0, 1.0]}
+>>>gridWidth
+{'x': 0.5, 'x2': 0.5, 'y': 0.5, 'y2': 0.5}
+>>>gridStyle
+{'x': 'solid', 'x2': 'solid', 'y': 'solid', 'y2': 'dotted'}
+>>>gridDashStyle
+{'x': 'butt', 'x2': 'butt', 'y': 'butt', 'y2': 'butt'}
+>>>gridOrder
+{'x': 'back', 'x2': 'back', 'y': 'back', 'y2': 'back'}
+>>>labelY2
+'y2'
+>>>labelY2Color
+[0.2, 0.2, 0.2, 1.0]
+>>>labelY2Size
+12.0
+>>>labelY2Weight
+'normal'
+>>>labelY2Style
+'normal'
+>>>labelY2Variant
+'normal'
+>>>labelY2Pad
+4.0
+>>>labelY2Pos
+0.5
+>>>labelY2Angle
+90.0
+>>>labelY2Alignment
+'center'
+>>>labelY2AlignmentVertical
+'top'
+>>>ticksY2
+[0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725, 0.75, 0.775]
+>>>ticksY2Show
+True
+>>>ticksY2Color
+[0.2, 0.2, 0.2, 1.0]
+>>>ticksY2Size
+11.0
+>>>ticksY2Angle
+0.0
+>>>ticksY2Alignment
+'left'
+>>>ticksY2AlignmentVertical
+'center'
+>>>ticksY2Pad
+4.0
+>>>ticksY2Pad2
+0.0
+>>>ticksY2Auto
+True
+>>>ticksY2Weight
+'normal'
+>>>ticksY2Style
+'normal'
+>>>figureColor
+[1.0, 1.0, 1.0, 1.0]
+>>>canvasColor
+[1.0, 1.0, 1.0, 0.0]
+>>>canvasFill
+True
+>>>figureFill
+False
+>>>frameDraw
+False
+>>>exportWidth
+8.0
+>>>exportHeight
+6.0
+>>>axisFont
+{'x': 'Tahoma', 'y': 'Tahoma', 'y2': 'Tahoma'}
+>>>tickFont
+{'x': 'Tahoma', 'y': 'Tahoma', 'y2': 'Tahoma'}
+>>>padSize
+{'left': 0.15, 'right': 0.95, 'bottom': 0.15, 'top': 0.95}
+>>>frameWidth
+0.5
+>>>frameColor
+[0.2, 0.2, 0.2, 1.0]
+>>>frameStyle
+'solid'
+>>>frameDashStyle
+'projecting'
+>>>legendVisible
+True
+>>>legendPlacement
+'best'
+>>>legendColor
+{'face': [1.0, 1.0, 1.0, 0.5], 'edge': [0.2, 0.2, 0.2, 1.0]}
+>>>legendEdgeWidth
+0.5
+>>>legendShadow
+False
+>>>legendShadowDeltaX
+2
+>>>legendShadowDeltaY
+-2
+>>>legendShadowFaceColor
+[0.5, 0.5, 0.5, 1.0]
+>>>legendLabelColor
+[0.0, 0.0, 0.0, 1.0]
+>>>legendLabelSize
+11.0
+>>>legendLabelWeight
+'normal'
+>>>legendLabelStyle
+'normal'
+>>>legendHatch
+''
+>>>legendHatchMultiply
+1
+>>>legendRounding
+0.2
+>>>legendLabelFont
+'Tahoma'
+>>>legendNumPoints
+1
+>>>legendMarkerFirst
+True
+>>>legendNumCol
+3
+>>>legendMarkerScale
+1.0
+>>>legendBorderPad
+0.4
+>>>legendLabelSpacing
+0.4
+>>>legendColumnSpacing
+2
+>>>legendFill
+False
+>>>legendEdge
+True
+>>>xkcd
+False
+>>>xkcdScale
+1.0
+>>>xkcdLength
+100.0
+>>>xkcdRandomness
+2.0
+>>>applyPathStroke
+True
+>>>pathStrokeWidth
+1.0
+>>>pathStrokeColor
+[1.0, 1.0, 1.0, 1.0]
+>>>applyPathShadow
+True
+>>>pathShadowX
+1.5
+>>>pathShadowY
+-1.5
+>>>pathShadowColor
+[0.4, 0.4, 0.4, 0.5]
+>>>arrowVisible
+{'x': False, 'y': False}
+>>>arrowOverhang
+{'x': 0.2, 'y': 0.2}
+>>>arrowColor
+{'x': [0.2, 0.2, 0.2, 1.0], 'y': [0.2, 0.2, 0.2, 1.0]}
+>>>arrowFill
+{'x': [1.0, 1.0, 1.0, 1.0], 'y': [1.0, 1.0, 1.0, 1.0]}
+>>>arrowHeadLength
+{'x': 0.04, 'y': 0.04}
+>>>arrowHeadWidth
+{'x': 0.025, 'y': 0.025}
+>>>arrowOffset
+{'x': 0.5, 'y': 0.5}
+>>>arrowEdge
+{'x': 1.0, 'y': 1.0}
+>>>arrowEdgeShow
+{'x': True, 'y': True}
+>>>arrowFillShow
+{'x': False, 'y': False}
+>>>arrowLocation
+{'x': 'bottom', 'y': 'left'}
+>>>canvasGradientVisible
+False
+>>>canvasGradientStyle
+'radial'
+>>>canvasGradientColor1
+[0.9098039215686274, 0.8941176470588236, 1.0, 1.0]
+>>>canvasGradientColor2
+[1.0, 1.0, 1.0, 1.0]
+>>>canvasGradientAngle
+0.0
+>>>canvasGradientWidth
+1.0
+>>>canvasGradientCenter
+[0.8, 0.8]
+>>>splitFraction
+1.0
+>>>splitPad
+0.1
+>>>innerAxes
+False
+>>>innerTicks
+False
+>>>splitDivider
+True
+>>>splitDividerLength
+0.07
+>>>splitDividerWidth
+1.0
+>>>splitDividerColor
+[0.2, 0.2, 0.2, 1.0]
+>>>splitDividerDashStyle
+'projecting'
+>>>splitDividerAngle
+60.0
+>>>splitDividerLocation
+'bottom'
+>>>dataSet_0
+{'linewidth': 1.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0], 'markerfacecolor': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 'o', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>dataError_0
+{'color': [0.0, 0.0, 0.0, 1.0], 'linewidth': 1.0, 'linestyle': 'solid', 'marker': '_', 'markerX': '|', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 12.0, 'fillstyle': 'full', 'doFill': True, 'errorInFront': False, 'visible': True, 'direction': 'both'}
+>>>dataErrorShady_0
+{'visible': False, 'facecolor': [0.8, 0.2, 0.2, 0.5], 'edgecolor': [0.8, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 0.0}
+>>>dataBar_0
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>dataStack_0
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>dataText_0
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>dataViolin_0
+{'mode': 0, 'bodies': {'facecolor': [0.8, 0.8, 0.9, 1.0], 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 1.0, 'capstyle': 'butt', 'hatch': '', 'hatchMultiply': 1, 'visible': True, 'width': 0.5, 'doFill': True}, 'cmaxes': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cbars': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmeans': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmedians': {'visible': False}, 'cmins': {'visible': True}, 'boxes': {'linestyle': 'solid', 'linewidth': 1.0, 'dash_capstyle': 'butt', 'visible': True, 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'width': 0.5, 'boxFill': True, 'facecolor': [0.8, 0.8, 0.9, 0.0], 'hatch': '', 'hatchMultiply': 1}, 'whiskers': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'medians': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'caps': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'fliers': {'visible': True, 'marker': 'o', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'fillstyle': 'full', 'doFill': True}}
+>>>resid_0
+{'linewidth': 1.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0], 'markerfacecolor': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 'o', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>residBar_0
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>residStack_0
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>residText_0
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>residZero_0
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0]}
+>>>dataSet_1
+{'linewidth': 1.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0], 'markerfacecolor': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 's', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>dataError_1
+{'color': [0.0, 0.0, 0.0, 1.0], 'linewidth': 1.0, 'linestyle': 'solid', 'marker': '_', 'markerX': '|', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 12.0, 'fillstyle': 'full', 'doFill': True, 'errorInFront': False, 'visible': True, 'direction': 'both'}
+>>>dataErrorShady_1
+{'visible': False, 'facecolor': [0.8, 0.2, 0.2, 0.5], 'edgecolor': [0.8, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 0.0}
+>>>dataBar_1
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>dataStack_1
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>dataText_1
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>dataViolin_1
+{'mode': 0, 'bodies': {'facecolor': [0.8, 0.8, 0.9, 1.0], 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 1.0, 'capstyle': 'butt', 'hatch': '', 'hatchMultiply': 1, 'visible': True, 'width': 0.5, 'doFill': True}, 'cmaxes': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cbars': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmeans': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmedians': {'visible': False}, 'cmins': {'visible': True}, 'boxes': {'linestyle': 'solid', 'linewidth': 1.0, 'dash_capstyle': 'butt', 'visible': True, 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'width': 0.5, 'boxFill': True, 'facecolor': [0.8, 0.8, 0.9, 0.0], 'hatch': '', 'hatchMultiply': 1}, 'whiskers': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'medians': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'caps': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'fliers': {'visible': True, 'marker': 'o', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'fillstyle': 'full', 'doFill': True}}
+>>>resid_1
+{'linewidth': 1.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0], 'markerfacecolor': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 's', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>residBar_1
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>residStack_1
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>residText_1
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>residZero_1
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0]}
+>>>dataSet_2
+{'linewidth': 1.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0], 'markerfacecolor': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 'v', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>dataError_2
+{'color': [0.0, 0.0, 0.0, 1.0], 'linewidth': 1.0, 'linestyle': 'solid', 'marker': '_', 'markerX': '|', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 12.0, 'fillstyle': 'full', 'doFill': True, 'errorInFront': False, 'visible': True, 'direction': 'both'}
+>>>dataErrorShady_2
+{'visible': False, 'facecolor': [0.8, 0.2, 0.2, 0.5], 'edgecolor': [0.8, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 0.0}
+>>>dataBar_2
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>dataStack_2
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>dataText_2
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>dataViolin_2
+{'mode': 0, 'bodies': {'facecolor': [0.8, 0.8, 0.9, 1.0], 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 1.0, 'capstyle': 'butt', 'hatch': '', 'hatchMultiply': 1, 'visible': True, 'width': 0.5, 'doFill': True}, 'cmaxes': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cbars': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmeans': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmedians': {'visible': False}, 'cmins': {'visible': True}, 'boxes': {'linestyle': 'solid', 'linewidth': 1.0, 'dash_capstyle': 'butt', 'visible': True, 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'width': 0.5, 'boxFill': True, 'facecolor': [0.8, 0.8, 0.9, 0.0], 'hatch': '', 'hatchMultiply': 1}, 'whiskers': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'medians': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'caps': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'fliers': {'visible': True, 'marker': 'o', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'fillstyle': 'full', 'doFill': True}}
+>>>resid_2
+{'linewidth': 1.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0], 'markerfacecolor': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 'v', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>residBar_2
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>residStack_2
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>residText_2
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>residZero_2
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0]}
+>>>dataSet_3
+{'linewidth': 1.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0], 'markerfacecolor': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': '^', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>dataError_3
+{'color': [0.0, 0.0, 0.0, 1.0], 'linewidth': 1.0, 'linestyle': 'solid', 'marker': '_', 'markerX': '|', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 12.0, 'fillstyle': 'full', 'doFill': True, 'errorInFront': False, 'visible': True, 'direction': 'both'}
+>>>dataErrorShady_3
+{'visible': False, 'facecolor': [0.8, 0.2, 0.2, 0.5], 'edgecolor': [0.8, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 0.0}
+>>>dataBar_3
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>dataStack_3
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>dataText_3
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 14.0, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>dataViolin_3
+{'mode': 0, 'bodies': {'facecolor': [0.8, 0.8, 0.9, 1.0], 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 1.0, 'capstyle': 'butt', 'hatch': '', 'hatchMultiply': 1, 'visible': True, 'width': 0.5, 'doFill': True}, 'cmaxes': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cbars': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmeans': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmedians': {'visible': False}, 'cmins': {'visible': True}, 'boxes': {'linestyle': 'solid', 'linewidth': 1.0, 'dash_capstyle': 'butt', 'visible': True, 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'width': 0.5, 'boxFill': True, 'facecolor': [0.8, 0.8, 0.9, 0.0], 'hatch': '', 'hatchMultiply': 1}, 'whiskers': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'medians': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'caps': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'fliers': {'visible': True, 'marker': 'o', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'fillstyle': 'full', 'doFill': True}}
+>>>resid_3
+{'linewidth': 1.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0], 'markerfacecolor': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': '^', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>residBar_3
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>residStack_3
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>residText_3
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 14.0, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>residZero_3
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0]}
+>>>dataSet_4
+{'linewidth': 1.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0], 'markerfacecolor': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 'd', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>dataError_4
+{'color': [0.0, 0.0, 0.0, 1.0], 'linewidth': 1.0, 'linestyle': 'solid', 'marker': '_', 'markerX': '|', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 12.0, 'fillstyle': 'full', 'doFill': True, 'errorInFront': False, 'visible': True, 'direction': 'both'}
+>>>dataErrorShady_4
+{'visible': False, 'facecolor': [0.8, 0.2, 0.2, 0.5], 'edgecolor': [0.8, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 0.0}
+>>>dataBar_4
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>dataStack_4
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>dataText_4
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>dataViolin_4
+{'mode': 0, 'bodies': {'facecolor': [0.8, 0.8, 0.9, 1.0], 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 1.0, 'capstyle': 'butt', 'hatch': '', 'hatchMultiply': 1, 'visible': True, 'width': 0.5, 'doFill': True}, 'cmaxes': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cbars': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmeans': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmedians': {'visible': False}, 'cmins': {'visible': True}, 'boxes': {'linestyle': 'solid', 'linewidth': 1.0, 'dash_capstyle': 'butt', 'visible': True, 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'width': 0.5, 'boxFill': True, 'facecolor': [0.8, 0.8, 0.9, 0.0], 'hatch': '', 'hatchMultiply': 1}, 'whiskers': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'medians': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'caps': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'fliers': {'visible': True, 'marker': 'o', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'fillstyle': 'full', 'doFill': True}}
+>>>resid_4
+{'linewidth': 1.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0], 'markerfacecolor': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 'd', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>residBar_4
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>residStack_4
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>residText_4
+{'showText': False, 'skip': 1, 'color': [0.2, 0.2, 0.2, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>residZero_4
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0]}
+>>>dataSet_5
+{'linewidth': 1.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 'p', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>dataError_5
+{'color': [0.0, 0.0, 0.0, 1.0], 'linewidth': 1.0, 'linestyle': 'solid', 'marker': '_', 'markerX': '|', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 12.0, 'fillstyle': 'full', 'doFill': True, 'errorInFront': False, 'visible': True, 'direction': 'both'}
+>>>dataErrorShady_5
+{'visible': False, 'facecolor': [0.8, 0.2, 0.2, 0.5], 'edgecolor': [0.8, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 0.0}
+>>>dataBar_5
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>dataStack_5
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>dataText_5
+{'showText': False, 'skip': 2, 'color': [0.9882352941176471, 0.0, 0.043137254901960784, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>dataViolin_5
+{'mode': 0, 'bodies': {'facecolor': [0.8, 0.8, 0.9, 1.0], 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'linestyle': 'solid', 'linewidth': 1.0, 'capstyle': 'butt', 'hatch': '', 'hatchMultiply': 1, 'visible': True, 'width': 0.5, 'doFill': True}, 'cmaxes': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cbars': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmeans': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'capstyle': 'butt', 'visible': True}, 'cmedians': {'visible': False}, 'cmins': {'visible': True}, 'boxes': {'linestyle': 'solid', 'linewidth': 1.0, 'dash_capstyle': 'butt', 'visible': True, 'edgecolor': [0.2, 0.2, 0.2, 1.0], 'width': 0.5, 'boxFill': True, 'facecolor': [0.8, 0.8, 0.9, 0.0], 'hatch': '', 'hatchMultiply': 1}, 'whiskers': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'medians': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'caps': {'linestyle': 'solid', 'linewidth': 1.0, 'color': [0.2, 0.2, 0.2, 1.0], 'dash_capstyle': 'butt', 'visible': True}, 'fliers': {'visible': True, 'marker': 'o', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'fillstyle': 'full', 'doFill': True}}
+>>>resid_5
+{'linewidth': 1.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 9.0, 'marker': 'p', 'fillstyle': 'full', 'markevery': 1, 'doFill': True}
+>>>residBar_5
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'hatchMultiply': 1, 'offset': 0, 'doFill': True}
+>>>residStack_5
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'facecolorAlt': [0.3, 0.2, 0.6, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': '', 'hatchMultiply': 1, 'doFill': True}
+>>>residText_5
+{'showText': False, 'skip': 2, 'color': [0.9882352941176471, 0.0, 0.043137254901960784, 1.0], 'fontsize': 10, 'fontweight': 'normal', 'fontstyle': 'normal', 'fontname': 'Dejavu Sans', 'rotation': 0.0, 'padX': 0.0, 'padY': 0.0, 'type': 'y'}
+>>>residZero_5
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0]}
+>>>curve_0
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.8862745098039215, 0.2901960784313726, 0.2, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'marker': 'None', 'fillstyle': 'full', 'markevery': 100, 'doFill': True}
+>>>curve_1
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.20392156862745098, 0.5411764705882353, 0.7411764705882353, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'marker': 'None', 'fillstyle': 'full', 'markevery': 100, 'doFill': True}
+>>>curve_2
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.596078431372549, 0.5568627450980392, 0.8352941176470589, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'marker': 'None', 'fillstyle': 'full', 'markevery': 100, 'doFill': True}
+>>>curve_3
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.4666666666666667, 0.4666666666666667, 0.4666666666666667, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'marker': 'None', 'fillstyle': 'full', 'markevery': 100, 'doFill': True}
+>>>curve_4
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.984313725490196, 0.7568627450980392, 0.3686274509803922, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'marker': 'None', 'fillstyle': 'full', 'markevery': 100, 'doFill': True}
+>>>curve_5
+{'linewidth': 1.5, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.5, 'markersize': 10.0, 'marker': 'None', 'fillstyle': 'full', 'markevery': 100, 'doFill': True}

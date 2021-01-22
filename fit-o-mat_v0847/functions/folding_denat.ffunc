@@ -1,0 +1,15 @@
+<PARAMETERS>
+deltaG0, 20000
+m, 10000
+SN, 1
+slopeN, 0
+SU, 0
+slopeU, 0
+T, 293.15, 0
+<FORMULA>
+# thermal denaturation
+R = 8.3145
+deltaG = deltaG0 - m * x
+K = exp(-deltaG / R / T)
+fN = 1 / (1 + K)
+y = fN * (SN + slopeN * x) + (1 - fN) * (SU + slopeU * x)

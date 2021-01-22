@@ -1,0 +1,7 @@
+<PARAMETERS>
+A0, 1
+A1, 1
+k1, 1
+<FORMULA>
+# a single exponential function
+y = A0 + A1 * np.exp(-k1*x)

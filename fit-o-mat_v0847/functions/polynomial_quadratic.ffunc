@@ -1,0 +1,7 @@
+<PARAMETERS>
+A0, -0.5
+A1, 1
+A2, -0.5
+<FORMULA>
+# a quadratic function
+y = A2 * x ** 2 + A1 * x + A0

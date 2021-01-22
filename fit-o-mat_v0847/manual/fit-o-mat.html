@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC
+	       "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta charset="utf-8"/>
+<meta name="author" content="A.M."/>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Fit-o-mat Manual</title>
+</head>
+<script language="javascript">
+
+</script>
+<body>
+<img src='./ubt_logo.svg' class='logo'>
+<h2 class='am'>Manual</h2>
+<p class='about'>Fit-o-mat written and &copy; by Andreas M&ouml;glich 2017-2020, Universit&auml;t Bayreuth, Germany
+<br>Released under the <a href='https://www.gnu.org/licenses/gpl.html'>GNU General Public License</a> version 3.0 or later
+<br><a href="mailto:andreas_DOT_moeglich_AT_uni-bayreuth_DOT_de?subject=[Fit-o-mat]"><span class="mail">andreas<span class="dot"></span>moeglich<span class="at"></span>uni-bayreuth<span class="dot"></span>de</span></a>
+<br>M&ouml;glich, A. (2018) An open-source, cross-platform resource for nonlinear least-squares curve fitting. <i>J Chem Educ</i> <b>95(12)</b>, 2273-2278 <a href='http://dx.doi.org/10.1021/acs.jchemed.8b00649'>[doi]</a></p>
+
+<h3 class='am'>General remarks</h3>
+<h4 class='am'>Purpose & audience</h4>
+<p>Fit-o-mat is an all-purpose, open-source, cross-platform program for nonlinear least-squares data fitting. The software is written in <a href='https://www.python.org/'>Python 3</a> and resorts to the Python libraries <a href='http://www.numpy.org/'><i>NumPy</i></a> and <a href='http://www.scipy.org/'><i>SciPy</i></a> for numerical methods, and to <a href='http://matplotlib.org/'><i>matplotlib</i></a> for visualization. The program is operated via a graphical user interface implemented in <a href='http://pyqt.sourceforge.net/Docs/PyQt5/'><i>PyQt5</i></a>. In a nutshell, Fit-o-mat provides a front-end to data-fitting algorithms implemented in Python and thereby strives to unlock their application for a broad audience, including people less versed in computer programming.</p>
+<p>The intended target audience for Fit-o-mat is anybody interested in nonlinear least-squares analysis, specifically but not limited to students, teachers and researchers in the life sciences. As a case in point, we have been using the program in the classroom and for preparing figures for publication.</p>
+
+<h4 class='am'>Gallery</h4>
+<p>A few examples of graphics prepared with Fit-o-mat (in a matter of minutes only).</p>
+<p class='gallery'>
+<img src='./fit-o-mat_example_0.svg' class='tile'>
+<img src='./fit-o-mat_example_1.svg' class='tile'>
+<img src='./fit-o-mat_example_2.svg' class='tile'>
+<img src='./fit-o-mat_example_3.svg' class='tile'>
+<img src='./fit-o-mat_example_4.svg' class='tile'>
+<img src='./fit-o-mat_example_5.svg' class='tile'>
+<img src='./fit-o-mat_example_6.svg' class='tile'>
+<img src='./fit-o-mat_example_7.svg' class='tile'>
+<img src='./fit-o-mat_example_8.svg' class='tile'>
+<img src='./fit-o-mat_example_9.svg' class='tile'>
+<img src='./fit-o-mat_example_10.svg' class='tile'>
+<img src='./fit-o-mat_example_11.svg' class='tile'>
+</p>
+
+<h4 class='am' style='clear:left;'>Disclaimer</h4>
+<p>The program is released under the <a href='https://www.gnu.org/licenses/gpl.html'>GNU General Public License</a> version 3.0 or later. Hence, it can be freely used and distributed as long as it is unmodified. Use at your own responsibility, the author cannot be held responsible for any data loss etc. If you encounter bugs, try to reproduce, save program state right before bug occurs (cf. below) and send to <a href="mailto:andreas_DOT_moeglich_AT_uni-bayreuth_DOT_de?subject=[Fit-o-mat]"><span class="mail">andreas<span class="dot"></span>moeglich<span class="at"></span>uni-bayreuth<span class="dot"></span>de</span></a>.  Feature requests and illustrations for the figure gallery may also be sent to the same address.</p>
+<p>If you employ Fit-o-mat in a publication, please acknowledge use:<br>M&ouml;glich, A. (2018) An open-source, cross-platform resource for nonlinear least-squares curve fitting. <i>J Chem Educ</i> <b>95(12)</b>, 2273-2278, doi: 10.1021/acs.jchemed.8b00649 <a href='http://dx.doi.org/10.1021/acs.jchemed.8b00649'>[doi]</a></p>
+
+<h4 class='am'>Features</h4>
+<p>Fit-o-mat attempts to meet these objectives:
+<ul class='am'>
+<li>open-source, cross-platform, Python-based architecture</li>
+<li>free to copy, free to share, facilitate data exchange</li>
+<li>least-squares fitting to arbitrary target functions, including discontinuous and numerical functions</li>
+<li>flexible online modification of fit parameters and function</li>
+<li>global fit of multiple data sets and functions</li>
+<li>publication-quality graphics in various formats</li>
+<li>tutorial mode to aid teaching</li>
+<li>enthuse people for Python</li>
+</ul>
+</p>
+
+<h4 class='am'>Installation</h4>
+<p>Fit-o-mat requires a working Python 3 installation and the following modules, all of which are pretty standard: <i>PyQt5, sys, glob, functools, copy, ast, time, os, webbrowser, matplotlib, xlrd, xlsxwriter, openpyxl, numpy, scipy, io, zipfile</i>. To install Python 3, the following information may be helpful.
+<ul class='am'>
+<li><span class='green'>Windows</span> - we recommend <a href='http://winpython.github.io/'>WinPython</a> as it already includes the above required modules</li>
+<li><span class='green'>Linux</span> - modern Linux distributions should come with Python 3 or offer the option to install it. Similarly, missing modules can be installed as well.</li>
+<li><span class='green'>Mac OS X</span> - Fit-o-mat runs on Mac OS X but the installation of <i>PyQt5</i> is challenging. Assuming you have a working installation of Python 3, you should first try installing the PyQt5 wheel by issuing this command: <pre>python3 -m pip install PyQt5</pre>
+Ideally, you are good to go now. However, failing that, people have had success with <a href='https://brew.sh/'>Homebrew</a>. (Sorry, don't possess a current Mac, can only provide minimal support here.)</li>
+</ul>
+</p>
+<p>
+The actual Fit-o-mat program is a Python script named <i>fit-o-mat.py</i>. Copy this script as well as the accompanying file folders to a desired directory. Run the Python program. (Under Linux/OS X, the script assumes that the Python 3 interpreter is located at <i>/usr/bin/python3</i>.) If installation has been successful, a program window should now appear that depending upon operating system looks approximately like this.
+<img src='./fit-o-mat.png' width='70%' class='snap'>
+</p>
+
+<h4 class='am'>Troubleshooting</h4>
+<p>The following list contains problems that may occur when using Fit-o-mat and shows how to address them:
+<ul class='am'>
+<li><span class='green'>Python module <i>xxx</i> is missing</span> - this error occurs when your Python installation is lacking an essential functional library, see above. To identify which one exactly, run the Fit-o-mat program from the command line and read the error message. Then install the missing module, here assumed to be named <i>xxx</i>, via this command: <pre>python3 -m pip install xxx</pre></li>
+<li><span class='green'>Excel XML files (.xlsx) suddenly stopped working</span> - this problem is due to newer versions of the module <i>xlrd</i> suspending support for Excel XML files (due to security issues). <i>xlrd</i> is still used for importing old-style .xls files, so you can either convert your data to the .xls format or you can copy-paste its content into the Fit-o-mat program. To still be able to import .xlsx files, you should install <i>openpyxl</i>, see above.</li>
+<li><span class='green'>General program failure</span> - in case Fit-o-mat encounters a critical failure, you should be offered the opportunity to save the current program state before the program then terminates. Please send the bug report and associated state file to <a href="mailto:andreas_DOT_moeglich_AT_uni-bayreuth_DOT_de?subject=[Fit-o-mat]"><span class="mail">andreas<span class="dot"></span>moeglich<span class="at"></span>uni-bayreuth<span class="dot"></span>de</span></a> to help improve Fit-o-mat.</li>
+</ul>
+</p>
+
+<h4 class='am'>Tutorials</h4>
+<p>How to learn using Fit-o-mat? One option certainly is to go through this manual but arguably the best way to learn using (and liking) Fit-o-mat is to actually try it out. In this spirit, Fit-o-mat comes with several tutorial files that can be executed via the 'Open State' button located in the bottom right corner of the program window (or, by pressing Ctrl-O, or, by dragging the state file on the program window). To familiarize themselves with the core functionality of Fit-o-mat, fresh users are advised to go through these tutorials. Instructors may add their own tutorials as they see fit. Moreover, the button 'Tooltips' in the bottom right of the program window activates tooltips when hovering over elements of the user interface.</p>
+
+<h4 class='am'>Credits</h4>
+<p>Kudos to my research group at Universit&auml;t Bayreuth for patience, comments, inspiration, testing, beta-testing and (rather painful) alpha-testing. Thanks to my old pals Max<sup>2</sup>, Marvin, Falko <i>et al.</i> at Humboldt-Universit&auml;t zu Berlin for hooking me up with Python (used to be a camelid before). Thanks to Julia Dietler, Nischal Karki and Vincent Emann, and Drs. Christian Kambach, Jochen Reinstein, David Richter, Dagmar Wachten, Michael Weyand, and Brian Zoltowski for stimulating discussion and motivation.</p>
+
+<h3 class='am'>Feature reference</h3>
+<h4 class='am'>Main window</h4>
+<p>The program window is divided into two halves, with the left showing one of six tabs and the right displaying main and residuals plots. The usage of the six tabs is detailed below. The right part of the window allows to set limits and scale (linear or log) for the <i>x</i> any <i>y</i> axes; the checkboxes turn on/off automatic zoom to current data/curve during program usage. The button 'split' in the bottom right corner turns on/off a split <i>x</i> axis; once turned on, a second plot will be displayed next to the principal one. This option is for example useful for plotting split log and linear axes. The button 'Clear Selection' below the plot unselects any data points currently selected  (see 'Results' tab for more details on selection).</p>
+<p class='noindent'>Clicking in the main graph area elicits a number of actions as follows:
+<ul class='am'>
+<li><span class='green'>left click</span> - interactive zoom of plot axes limits to desired region</li>
+<li><span class='green'>right click</span> - unzoom plot axes limits to previous view</li>
+<li><span class='green'>middle click</span> - toggles on/off mouse cursor</li>
+<li><span class='green'>left double click</span> - when double-clicking on a graphics object, its configuration menu is brought up; double-clicking on plot canvas toggles on/off mouse cursor</li>
+<li><span class='green'>Ctrl key + mouse wheel</span> - set magnification of plot</li>
+<li><span class='green'>Shift key + left click</span> - when holding the Shift key and left-clicking on the plot canvas, a lasso selector appears and allows interactive selection of data (see 'Results' tab for more details on selection); when Shift-left-clicking on an extras object (e.g., a geometrical shape or a label), its <i>x</i> and <i>y</i> coordinates can be interactively adjusted</li>
+<li><span class='green'>Ctrl key + left click</span> - when holding the Ctrl key and left-clicking on an extras object (e.g., a geometrical shape or a label), its size can be interactively adjusted</li>
+<li><span class='green'>Shift and Ctrl keys + left click</span> - when holding the Shift and Ctrl keys and left-clicking on an extras object (e.g., a geometrical shape or a label), its angular orientation can be interactively adjusted</li>
+</ul>
+</p>
+<p>The very bottom of the program window contains a status bar that displays messages in case of problems during program usage. Watch this space to become aware of (and hopefully solve) any problems. At the right edge of the status bar, buttons are available for saving and loading the current state (or, session) of the program; for controlling the magnification of on-screen display; and for accessing advanced program options (additional settings for export, graphics options, minimization and random search -- use with care). Additional buttons access the online help and activate tooltips when hovering over elements of the user interface.</p>
+<p class='noindent'>Fit-o-mat responds to a number of keyboard shortcuts as follows:
+<ul class='am'>
+<li><span class='green'>Ctrl-1</span> through <span class='green'>Ctrl-7</span> - switch between the different tabs of the Fit-o-mat program</li>
+<li><span class='green'>Ctrl-I</span> - import data file</li>
+<li><span class='green'>Ctrl-O</span> - open state file</li>
+<li><span class='green'>Ctrl-S</span> - save state file</li>
+<li><span class='green'>Ctrl-F</span> - fit data</li>
+<li><span class='green'>Ctrl-N</span> - numerically minimize deviation between data and fit</li>
+<li><span class='green'>Ctrl-P</span> - export graphics</li>
+<li><span class='green'>Ctrl-G</span> or <span class='green'>F3</span> - generate report of current plot and fit results</li>
+<li><span class='green'>F1</span> - display help</li>
+<li><span class='green'>F5</span> - display print preview</li>
+<li><span class='green'>Ctrl-+</span> and <span class='green'>Ctrl--</span> - set plot magnification</li>
+</ul>
+</p>
+
+<h4 class='am'>Data tab</h4>
+<p>The purpose of this tab is to import data, and to optionally reduce and transform them.
+<ul class='am'>
+<li><span class='green'>Open File</span> - data files in Excel and text format (tab-, comma-, or whitespace-delimited) are supported. Provided the optional Python module <a href='http://pypi.org/project/pycorn/'>Pycorn</a> is installed on your system, .res files from the Äkta Unicorn chromatography software can also be imported. Once a file has been loaded, the below table is populated. In case of Excel files with several sheets, a pertinent selector dialog is displayed. Data rows in the table can be selected by mouse or keyboard. Cells can be edited by double-clicking on them or just typing new contents. By left-clicking on the table header, the role of a given data column can be specified, i.e. none, <i>x</i> and <i>y</i> values and errors, or data labels. Right click on the table header allows sorting of the table based on the selected column. Via Ctrl+left click on the column header, the data column can be transformed. To this end, enter a formula in the dialog where individual columns in the data sheet can be accessed via C1, C2, etc., and the row number via ROW. For example, clicking on column 1 and then entering 'C1 = C1 - 1' subtracts 1 from each value in column 1. Likewise, entering 'C1 = 2 * ROW' calculates the values in column 1 as twice the row index.</li>
+<li><span class='green'>Blank/Resize</span> - Use the context menu to alter the dimensions of the data sheet and/or blank it. Beware that if the dimensions are reduced, the contents of all cells outside the new limits will be irretrievably deleted.</li>
+<li><span class='green'>Replace Comma</span> - Certain countries use the comma character (,) to delimit decimal numbers but Fit-o-mat expects decimal numbers with a period delimiter (.). Use this button, to replace all commata in data table with periods.</li>
+<li><span class='green'>Transpose?</span> - Check this button to transpose data sheet, i.e. swap columns and rows.</li>
+<li><span class='green'>Error options</span> - Toggle the push buttons to import data with <i>x</i> and/or <i>y</i> errors. Choose between using no errors, individual data errors in specified column (or, none if column is not assigned), constant error and proportional error. Check 'propagate?' to rigorously propagate data errors through all dat reduction and transformation steps.</li>
+<li><span class='green'>Data reduction</span> - Toggle the push button to activate data reduction on import. Data can be reduced by skipping or averaging <i>n</i> data points. The option 'mvavg' calculates a moving average over <i>n</i> consecutive data points, and the option 'log' logarithmically reduces number of data points to target number (approximately).</li>
+<li><span class='green'>Data transform</span> - Toggle the push buttons to activate data transformation on import. Formulas can be entered to transform the <i>x</i> and <i>y</i> values. For example, entering '<i>x</i> = <i>y</i>' and '<i>y</i> = <i>x</i>' swaps <i>x</i> and <i>y</i>. Likewise, '<i>x</i> = <i>x</i> + 5' shifts data in <i>x</i> by 5.</li>
+<li><span class='green'>Import Data</span> - The currently selected data rows are imported with the current settings for error, data reduction and transform. When applying the reduction and transformation steps, data errors will optionally be propagated (that is, if 'propagate?' is checked).</li>
+<li><span class='green'>Import & Create</span> - As the 'Import Data' function, but create a new data set into which to import the data.</li>
+<li><span class='green'>Import Series</span> - This function iteratively imports data sets starting with the currently selected <i>y</i> column and then continuing for all (unassigned) columns to the right of this initial column. To speed up graphics, display of data is switched to line graphics with no markers. Other than that, the comments for the 'Import Data' function apply.</li>
+</ul>
+</p>
+
+<h4 class='am'>Fit tab</h4>
+<p>The purpose of this tab is to fit the data.
+<ul class='am'>
+<li><span class='green'>Function</span> - Use the top-most drop-down menu allows to select fitting functions. These are actual text files that (by default) reside in the 'functions' subdirectory. Once a fit function has been selected, the parameter and formula fields and the parameter table are updated, and the new function is plotted over the current <i>x</i> interval.</li>
+<li><span class='green'>Parameters</span> - Use this entry field to specify which parameters the fit formula is using. Note that the independent variable is always assumed to be '<i>x</i>' and the return variable is always assumed to be '<i>y</i>'. Hence, '<i>x</i>' and '<i>y</i>' must <u>not</u> be specified here.</li>
+<li><span class='green'>Formula entry field</span> - This field contains the current fit formula which can be edited at will. The entry field turns red if a fit function throws an error when it is plotted. In this case, also watch the status bar which displays information on the underlying Python error and may help you resolve the problem. Note that entering new formula may prove somewhat of a challenge to new users -- best start from an existing function file and modify as desired.</li>
+<li><span class='green'>Save Fit Function</span> - The current fit formula and parameter values can be saved to file. By default, all fit formula files end in the suffix '.ffunc' and reside in the 'functions' subdirectory. Provided that you adhere to these default settings, newly saved fit formulae will then also appear in the function drop-down selector.</li>
+<li><span class='green'>Apply Fit Function</span> - Use this button to apply a previously edited fit function. Note that any changes made to the fit formula in the above entry field only become active once this button is clicked. By contrast, if a fit function has been chosen via the drop-down selector, it has been applied already and this button need not be clicked.</li>
+<li><span class='green'>Parameter table</span> - Use checkboxes to restrain parameters to set values or to optimize them during fit. Entry fields hold current parameter values. Adjacent column shows asymptotic standard errors from last fit. (Note that these errors are calculated <i>a posteriori</i>, i.e. based on estimates of the uncertainties for the individual data points. The next column reports <i>a priori</i> errors, provided uncertainties for the individual data points were defined. If in doubt, <a href='http://pubs.acs.org/doi/10.1021/ed082p157'>read up</a> or use the regular <i>a posteriori</i> errors to be on the safe side.) In the final column, you may specify lower and upper boundaries for parameters during fitting, numerical minimization and random search.</li>
+<li><span class='green'>Fit data</span> - Nonlinear least-squares optimization is performed for the currently selected data sets and curves, cf. Objects tab. If the data contain <i>x</i> errors, optimization is done by orthogonal distance regression (odr), and parameter boundaries (if present) are ignored. Otherwise, fitting is performed by Levenberg-Marquardt (lm) if no boundaries are specified, and by trust region reflective (trf) if boundaries have been set. It is generally recommended to try fitting your data with no parameter boundaries set. Fitted parameters are updated in the parameter table as are curve and residuals in the plot. If start parameters are ill-chosen, the fit may not converge to the global minimum but be trapped in a local minimum. If so, try adjusting start parameters, either manually or by using the 'Minimization' or 'Random search' options, and fit again.</li>
+<li><span class='green'>Minimization</span> - Starting from the current set of parameters, Fit-o-mat tries to find better agreement between data and fit by minimization. By default, the Nelder-Mead algorithm is used but other algorithms can be chosen in the Advanced settings. If parameter boundaries are set, then the minimization will be done by an algorithm supporting this. A progress window pops up that provides information on the process and allows to terminate the procedure. Note that this function does not calculate confidence intervals for the parameters, but rather it is well suited to determine suitable start parameters for a subsequent least-squares fit.</li>
+<li><span class='green'>Random Search</span> - Starting from the current set of parameters, Fit-o-mat tries to find better agreement between data and fit by random variation of parameters. If parameter boundaries are specified, the random search will heed these. A progress window pops up that provides information on the process and allows to terminate the procedure. Note that this function does not perform an actual fit of the data, but rather it is ideally used to determine suitable start parameters for a subsequent least-squares fit.</li>
+<li><span class='green'>Reset Parameters</span> - Upon loading or saving a fit function (cf. above), the current function parameters are stored in memory. Use this function, to revert to the previously saved parameter values. (Useful when a fit has not converged.)</li>
+<li><span class='green'>Fit results</span> - The bottom text field displays information on the last fit.</li>
+</ul>
+</p>
+
+<h4 class='am'>Global tab</h4>
+<p>This tab allows global fitting of several data sets to one or several functions.
+<ul class='am'>
+<li><span class='green'>Data sets and curves</span> - Each line in the table represents one data set and the fit function associated with this data set. Use checkbox to control whether the respective data set is considered for global fitting. Use drop-down selection to choose which function the particular data set is fitted to within the global fitting process. (Fit functions need to be specified in the Fit tab beforehand. Use the Objects tab to create additional functions for global fitting.) The final column of the table lists the parameters of the selected fit function.</li>
+<li><span class='green'>Parameters Local / Global</span> - This table collates the parameters in all currently selected fit functions. Parameter names which occur in several fit functions are fitted globally and are highlighted in bold blue. Use the checkboxes to fix individual parameter and to set start values for the global fit. The next two columns report <i>a posteriori</i> and <i>a priori</i> confidence intervals for the fitted parameters. In the final column, lower and upper parameter boundaries may be specified. Use the buttons below the table to start global fit, global minimization, global random search or to restore global fit parameters to their original values.</li>
+<li><span class='green'>Global Fit</span> - Global nonlinear least-squares optimization is performed for the currently selected data sets and curves. See description of 'Fit Data' in 'Fit' tab for details.</li>
+<li><span class='green'>Global Minimization</span> - Starting from the current set of parameters, Fit-o-mat tries to find better agreement between data sets and fits by global minimization. See description of 'Minimization' in 'Fit' tab for details.</li>
+<li><span class='green'>Random Search</span> - Starting from the current set of parameters, Fit-o-mat tries to find better agreement between data sets and fits by random variation of parameters.  See description of 'Random Search' in 'Fit' tab for details.</li>
+<li><span class='green'>Reset Parameters</span> - Use this function, to revert global parameters to the previously saved values. (Useful when a fit has not converged.)</li>
+<li><span class='green'>Global fit results</span> - The bottom text field displays information on the last global fit.</li>
+</ul>
+</p>
+
+<h4 class='am'>Results tab</h4>
+<p>This tab lists the current data and fit function values.
+<ul class='am'>
+<li><span class='green'>Data Set</span> - Use this selector to choose which data set is displayed in the below table.</li>
+<li><span class='green'>Main table</span> - Once data have been imported, a table with the data and error values is displayed. After fitting, columns with the fitted function values and residuals are added. De-/select rows for de-/selection of individual data points. Note that a change in the selection within the table will only take effect, once the 'Update Selection' button (see below) is pushed. Selected data points are then highlighted in the plot by symbols. If data points are selected, a subsequent fit will only pertain to the selected data points.</li>
+<li><span class='green'>Export results</span> - The content of the data table and the current graph can be exported as an HTML file with embedded SVG. Use this function to document your work. Alternatively, export these data to Excel (if you must).</li>
+<li><span class='green'>Update Selection</span> - Apply the selection in the data table to select data points in the plot for subsequent fitting.</li>
+<li><span class='green'>Clear Selection</span> - Deselect any data points that were previously selected.</li>
+<li><span class='green'>Spawn Data</span> - Generate new data set from currently selected data points.</li>
+</ul>
+</p>
+
+<h4 class='am'>Objects tab</h4>
+<p>This tab grants access to the organization and the appearance of data, curve, residuals and extra graphics objects.
+<ul class='am'>
+<li><span class='green'>Data sets</span> - Use the button to generate a new and empty data set. Each line in the table represents one data set. Use checkbox to control visibility, radiobutton to set active data set and the two entry fields to control <i>z</i> order and name of the data set. Note that curves are always fitted to the currently active data set. The 'Conf' button opens a pop-up menu that allows to alter the appearance of the data set. Alternatively, you can also call up this configuration menu by double-clicking on an object within the plot window. Via this menu, data sets can be merged, and overlapping data points can be declustered: any data points closer to other points than specified tolerances in <i>x</i> and/or <i>y</i> will be moved along the <i>x</i> axis to resolve the overlap. As this process alters the actual data values, the original (unmodified) data set is retained and a modified copy is created. 'Copy' creates an identical copy of the data set, and 'Del' deletes the data set (unless it is the last remaining data set). The column '2nd' allows data sets to be plotted on a secondary <i>y</i> axis. Once at least one item has been moved to the second axis, additional controls right to the plot window and a new tab will appear.</li>
+<li><span class='green'>Curves</span> - Use the button to generate a new curve. Each line in the table represents one curve. Use checkbox to control visibility, radiobutton to set active curve and the two entry fields to control <i>z</i> order and name of the curve. Note that the currently active curve is used for fitting; for plotting, the curve is evaluated over the currently set <i>x</i> range. The 'Conf' button opens a pop-up menu that allows to alter the appearance of the curve. 'Copy' creates an identical copy of the curve, and 'Del' deletes the curve (unless it is the last remaining curve). The column '2nd' allows curves to be plotted on a secondary <i>y</i> axis. Once at least one item has been moved to the second axis, additional controls right to the plot window and a new tab will appear.</li>
+<li><span class='green'>Extras</span> - Use the buttons to add lines, geometric shapes, text labels or annotations to the plot. Resultant objects will then appear as entries in the table. Use checkbox to control visibility and the two entry fields to control <i>z</i> order and name of the object. The 'Conf' button opens a pop-up menu that allows to alter the appearance of the object. The position and size of extras objects can be dynamically adjusted by left clicking on them in the plot while pressing the Shift or Ctrl keys, respectively. 'Copy' creates an identical copy of the object, and 'Del' deletes the object. The column '2nd' allows extra objects to be plotted on a secondary <i>y</i> axis. Once at least one item has been moved to the second axis, additional controls right to the plot window and a new tab will appear.</li>
+<li><span class='green'>Residuals</span> - Each line in the table represents one residuals object, with the first line being the zero line in the residuals plot. Use checkbox to control visibility, and the two entry fields to control <i>z</i> order and name of the residuals. Note that the currently active residuals object is paired to the currently active data set. The 'Conf' button opens a pop-up menu that allows to alter the appearance of the residuals.</li>
+</ul>
+</p>
+
+<h4 class='am'>Graphics tab</h4>
+<p>This tab is used to adjust and export graphics. Note that additional graphics settings can be accessed by enabling advanced graphics options in the Advanced menu. It's arguably easier to try out and see what these settings are doing than reading the below, but just in case, here we go:
+<ul class='am'>
+<li><span class='green'><i>x</i> and <i>y</i> labels</span> - Use push button to control visibility of axis labels. Set text, color, size, style and font of axes labels. Use third row to control angle, horizontal and vertical alignment, and position along axis of label.</li>
+<li><span class='green'>Axes</span> - Control visibility, color, width and line style of axes. Within second row, use push button 'boundary' to restrict axis to a certain interval, as specified by the entry fields. In the third row, set axis location to a specific data or axis value; use 'Reset' button to revert to original state.</li>
+<li><span class='green'>Arrows</span> - Draw arrowheads for <i>x</i> and <i>y</i> axes. Set colors, length and width of arrowheads. The settings 'ind.' and 'off.' control the shape and the offset of the arrowhead, respectively. Finally, set where arrow heads are drawn, i.e. top/bottom for the <i>x</i> axis and left/right for the <i>y</i> axis.</li>
+<li><span class='green'>Tick labels</span> - Use push button to control position of axes tick labels. Use 'auto' to automatically assign them, or the text box to manually determine where and which labels are displayed. The <i>x</i> axis also has the additional option 'Use labels' to show custom labels contained in the current data set (if any). Also, control angle, size, color, style, font and number format of tick labels. Finally, set how many minor tick marks are displayed between pairs of major ticks. The final two rows enable formatting of the tick labels: use the selector to choose between default, float, scientific and mathtext formats. The entry field 'precision' set how many significant digits are displayed after a decimal period; the push buttons control in turn whether trailing zeros are displayed, whether a comma is used to denote values of 1000 and above, and whether a comma should be used as a decimal delimiter rather than a period. In the final row, prefixes and postfixes to be displayed in front of or after each tick label can be specified; this is for instance useful for denoting currency units.</li>
+<li><span class='green'>Split X</span> - If a split <i>x</i> axis is enabled, controls for its configuration will show up. Similar to the options for the principal <i>x</i> axis, the position and number format for the axis ticks, as well as the number of minor ticks can be specified. In addition, the third row allows to adjust the relative sizes of and the distance between the split axes plots. Use the check boxes to control whether axis lines and tick marks are displayed at the junction between the plots. In the bottom two rows, specify visibility, location, style, length and angle of divider lines marking the split axes.</li>
+<li><span class='green'>Tick marks</span> - Use push button to control visibility of tick marks. Set position, color, width and length of tick marks, and control whether tick labels are displayed on given axis.</li>
+<li><span class='green'>Grid</span> - Control visibility, color, width and line style of <i>x</i> and <i>y</i> grid. Also, determine whether grid is shown in front or behind data.</li>
+<li><span class='green'>Legend</span> - Control visibility, placement, face and edge color, border width and shadow of legend. Configure color, size, style and font of legend entries. In the subsequent rows, control additional legend settings.</li>
+<li><span class='green'>Figure</span> - The first line sets figure and canvas color; use push buttons to toggle between transparent and filled figure and canvas backgrounds. The second line allows a color gradient to be displayed on the canvas. The third line sets the width and height of exported graphics (in inches). The button 'Use screen' updates the entry fields with the dimensions currently seen on screen. The fourth row controls the padding around the graph; use these settings if graphics are cut off in exported files.</li>
+<li><span class='green'>Frame</span> - Control visibility, color, width and line style of frame around figure.</li>
+<li><span class='green'>Miscellaneous graphics settings</span> - Draw your graphics in <a href='https://xkcd.com/'>xkcd</a> style (works great in the class room). Draw an outline and/or shadow for your data and curves.</li>
+<li><span class='green'>Preview</span> - Display a preview of the current plot as it looks when exported.</li>
+<li><span class='green'>Export graphics</span> - Save the current plot and residuals graphics in PDF, SVG and PS vector formats, or as a PNG bitmap. Advanced users may save the current graphics as a Python script that generates these graphics (useful for further modification of plot graphics).</li>
+<li><span class='green'>Create report</span> - Generates a report in HTML format that includes the current data and residual plots, the active curve in tabulated form, and, if available, the current data set as well as fit results. Useful for documenting and/or exporting your work.</li>
+<li><span class='green'>Open style</span> - Apply style settings to the current plot.</li>
+<li><span class='green'>Save style</span> - Save current graphics settings as a style. Generate and share your own style files.</li>
+</ul>
+</p>
+
+<h4 class='am'>2nd Axes tab</h4>
+<p>This tab is initially hidden but will be displayed once at least one item (data set, curve or extra) has been moved to the second <i>y</i> axis, cf. Objects tab. The tab offers a number of settings for the second <i>y</i> axis that correspond to the ones in the Graphics tab for the principal <i>y</i> axis; see there for details.</p>
+
+<h4 class='am'>Advanced settings</h4>
+<p>This menu can be opened by clicking on the 'Advanced' button in the status bar. The following options can be configured:
+<ul class='am'>
+<li><span class='green'>Export options</span> - Specify whether in addition to the main plot the resid plot is also exported as a separate graphics file. Set the resolution in dpi of bitmapped output formats. Check the settings 'SVG txt2path' to convert fonts to curves in vector output formats, e.g., SVG or PDF.</li>
+<li><span class='green'>Graphics options</span> - By default, less frequently used settings in the Graphics tab are hidden to reduce clutter. Check the 'advanced?' box to show and in turn control these settings.</li>
+<li><span class='green'>Save state files</span> - Control whether state files are saved as uncompressed text files (file extension *.state), as zipped text files (file extension *.statez), or as both file types.</li>
+<li><span class='green'>Minimization options</span> - Choose which algorithm is used for numerical minimization of the residuals between data and curve; available options are Nelder-Mead, Powell, CG and BFGS. Specify threshold for convergence of numerical minimization and maximum number of allowed function evaluations. Handle these two last settings with care as they may cause excessive run times during minimization.</li>
+<li><span class='green'>Random search options</span> - Control how many search cycles are performed during random minimization. In each cycle, the search amplitude is increased by the factor 'escalate'. Finally, you can also specify the maximum number of allowed function evaluations during random minimization. Beware that overly large numbers can incur long run times during minimization.</li>
+</ul>
+</p>
+
+<style type="text/css">
+.dot::before {content:".";}
+.at::before {content:"@";}
+
+body {counter-reset:h3;font-family:Helvetica,Calibri,Arial,sans-serif;}
+img.snap {display:block;margin-left:auto;margin-right:auto;margin-top:0.5em;margin-bottom:0.5em;border:none;}
+img.logo {float:left;border:none;margin-right:1em;margin-bottom:1em;width:7.5%;}
+img.tile {min-width:270px;min-height:270px;margin-right:0.5em !important;margin-bottom:0.5em !important;margin-top:0em !important;margin-left:0em !important;border:solid;border-width:0.5px;border-color:#333333;}
+
+a {color:#038a5e;font-weight:normal;font-size:100%;margin-top:0px;text-decoration:none;}
+a:hover {color:#038a5e;}
+h2.am {color:#038a5e;margin-bottom:0.25em;font-size:1.4em;font-weight:normal;}
+h3.am {color:#038a5e;counter-reset:h4;margin-top:1em;margin-bottom:0.25em;font-size:1.3em;font-weight:normal;}
+h3.am::before {counter-increment:h3;content:counter(h3) ".";margin-right:0.5em;}
+h4.am {color:#038a5e;;margin-top:1.5em;margin-bottom:0.5em;font-size:1.15em;font-weight:normal;}
+h4.am::before {counter-increment:h4;content:counter(h3) "." counter(h4) ".";margin-right:0.25em;}
+h3.am + h4.am {margin-top:0.5em;}
+
+b.am {color:#038a5e;font-weight:bold;}
+p {margin-top:0em;margin-bottom:0.5em;text-indent:1em;}
+p.about {margin-top:0em;margin-bottom:0.5em;text-indent:0em;}
+p.gallery {margin-top:0em;margin-bottom:0.5em;margin-left:1em;text-indent:0em;float:left;}
+p + p.gallery {margin-bottom:0em !important;}
+ul.am {margin-top:0em;}
+ul.am > li {list-style-type:none;margin-bottom:0.25em;}
+ul.am > li::before {color:#038a5e;content:'\2022';margin-left:-1.0em;display:inline-block;margin-right:0.5em;}
+.green {color:#038a5e;}
+</style>
+</body>
+</html>

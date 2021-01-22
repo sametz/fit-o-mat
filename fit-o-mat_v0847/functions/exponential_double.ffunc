@@ -1,0 +1,9 @@
+<PARAMETERS>
+A0, 1
+A1, -1
+k1, 1
+A2, 1
+k2, 5
+<FORMULA>
+# a double exponential function
+y = A0 + A1 * exp(-k1 * x) + A2 * exp(-k2 * x)

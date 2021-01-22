@@ -1,0 +1,236 @@
+>>>labelX
+'x'
+>>>labelXColor
+[0.2, 0.2, 0.2, 1.0]
+>>>labelXSize
+18.0
+>>>labelY
+'y'
+>>>labelYColor
+[0.2, 0.2, 0.2, 1.0]
+>>>labelYSize
+18.0
+>>>labelXAlignment
+'center'
+>>>labelYAlignment
+'center'
+>>>labelXPad
+4.0
+>>>labelYPad
+4.0
+>>>labelXPos
+0.5
+>>>labelYPos
+0.5
+>>>labelXAngle
+0.0
+>>>labelYAngle
+90.0
+>>>axisVisible
+{'left': False, 'right': False, 'bottom': True, 'top': False}
+>>>axisColor
+{'left': [0.2, 0.2, 0.2, 1.0], 'right': [0.2, 0.2, 0.2, 1.0], 'bottom': [0.2, 0.2, 0.2, 1.0], 'top': [0.2, 0.2, 0.2, 1.0]}
+>>>axisWidth
+{'left': 1.0, 'right': 1.0, 'bottom': 2.0, 'top': 1.0}
+>>>axisStyle
+{'left': 'solid', 'right': 'solid', 'bottom': 'solid', 'top': 'solid'}
+>>>axisDashStyle
+{'left': 'butt', 'right': 'butt', 'bottom': 'butt', 'top': 'butt'}
+>>>ticksX
+[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]
+>>>ticksXColor
+[0.2, 0.2, 0.2, 1.0]
+>>>ticksXSize
+16.0
+>>>ticksXAngle
+0.0
+>>>ticksXLabel
+[]
+>>>ticksXAuto
+True
+>>>ticksY
+[0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0, 1.1, 1.2000000000000002]
+>>>ticksYColor
+[0.2, 0.2, 0.2, 1.0]
+>>>ticksYSize
+16.0
+>>>ticksYAngle
+0.0
+>>>ticksYAuto
+True
+>>>ticksResidY
+[-0.15000000000000002, -0.10000000000000002, -0.05000000000000002, 0.0, 0.04999999999999999, 0.09999999999999998, 0.15000000000000002]
+>>>ticksResidYAuto
+True
+>>>ticksVisible
+{'left': False, 'right': False, 'bottom': True, 'top': False}
+>>>ticksDirection
+{'left': 'in', 'right': 'in', 'bottom': 'out', 'top': 'out'}
+>>>ticksColor
+{'left': [0.2, 0.2, 0.2, 1.0], 'right': [0.2, 0.2, 0.2, 1.0], 'bottom': [0.2, 0.2, 0.2, 1.0], 'top': [0.2, 0.2, 0.2, 1.0]}
+>>>ticksWidth
+{'left': 0.5, 'right': 0.5, 'bottom': 2.0, 'top': 2.0}
+>>>ticksLength
+{'left': 5.0, 'right': 5.0, 'bottom': 5.0, 'top': 5.0}
+>>>gridVisible
+{'x': False, 'y': True}
+>>>gridColor
+{'x': [0.2, 0.2, 0.2, 1.0], 'y': [1.0, 1.0, 1.0, 1.0]}
+>>>gridWidth
+{'x': 0.5, 'y': 1.0}
+>>>gridStyle
+{'x': 'dotted', 'y': 'solid'}
+>>>gridDashStyle
+{'x': 'butt', 'y': 'butt'}
+>>>gridOrder
+{'x': 'back', 'y': 'back'}
+>>>figureColor
+[0.803921568627451, 0.8705882352941177, 0.9019607843137255, 1.0]
+>>>canvasColor
+[0.803921568627451, 0.8705882352941177, 0.9019607843137255, 1.0]
+>>>exportWidth
+8.0
+>>>exportHeight
+6.0
+>>>axisFont
+{'x': 'Arial', 'y': 'Arial'}
+>>>tickFont
+{'x': 'Arial', 'y': 'Arial'}
+>>>padSize
+{'left': 0.1, 'right': 0.95, 'bottom': 0.1, 'top': 0.95}
+>>>legendVisible
+True
+>>>legendPlacement
+'best'
+>>>legendColor
+{'face': [1.0, 1.0, 1.0, 0.5], 'edge': [0.2, 0.2, 0.2, 1.0]}
+>>>legendEdgeWidth
+0.5
+>>>legendShadow
+False
+>>>legendLabelColor
+[0.0, 0.0, 0.0, 1.0]
+>>>legendLabelSize
+14
+>>>legendLabelFont
+'Arial'
+>>>xkcd
+False
+>>>xkcdScale
+1.0
+>>>xkcdLength
+100.0
+>>>xkcdRandomness
+2.0
+>>>applyPathStroke
+False
+>>>pathStrokeWidth
+2.0
+>>>pathStrokeColor
+[1.0, 1.0, 1.0, 1.0]
+>>>applyPathShadow
+False
+>>>pathShadowX
+2
+>>>pathShadowY
+-2
+>>>pathShadowColor
+[0.4, 0.4, 0.4, 0.5]
+>>>arrowVisible
+{'x': False, 'y': False}
+>>>arrowOverhang
+{'x': 0.1, 'y': 0.1}
+>>>arrowColor
+{'x': [0.2, 0.2, 0.2, 1.0], 'y': [0.2, 0.2, 0.2, 1.0]}
+>>>arrowFill
+{'x': [0.2, 0.2, 0.2, 1.0], 'y': [0.2, 0.2, 0.2, 1.0]}
+>>>arrowHeadLength
+{'x': 0.05, 'y': 0.05}
+>>>arrowHeadWidth
+{'x': 0.03, 'y': 0.03}
+>>>arrowOffset
+{'x': 0.2, 'y': 0.2}
+>>>dataSet_0
+{'linewidth': 2.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'markerfacecolor': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>dataError_0
+{'color': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'linewidth': 2.0, 'linestyle': 'solid', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'fillstyle': 'full', 'errorInFront': False, 'visible': True}
+>>>dataBar_0
+{'showBar': False, 'linewidth': 0.0, 'linestyle': 'None', 'capstyle': 'butt', 'facecolor': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'offset': 0}
+>>>dataStack_0
+{'showStack': False, 'linewidth': 0.0, 'linestyle': 'None', 'facecolor': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': ''}
+>>>resid_0
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'markerfacecolor': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>residZero_0
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 2.0, 'markersize': 14.0, 'marker': 'None'}
+>>>dataSet_1
+{'linewidth': 2.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'markerfacecolor': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>dataError_1
+{'color': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'linewidth': 2.0, 'linestyle': 'solid', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'fillstyle': 'full', 'errorInFront': False, 'visible': True}
+>>>dataBar_1
+{'showBar': False, 'linewidth': 0.0, 'linestyle': 'None', 'capstyle': 'butt', 'facecolor': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'offset': 0}
+>>>dataStack_1
+{'showStack': False, 'linewidth': 0.0, 'linestyle': 'None', 'facecolor': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': ''}
+>>>resid_1
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'markerfacecolor': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>residZero_1
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 2.0, 'markersize': 14.0, 'marker': 'None'}
+>>>dataSet_2
+{'linewidth': 2.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'markerfacecolor': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>dataError_2
+{'color': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'linewidth': 2.0, 'linestyle': 'solid', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'fillstyle': 'full', 'errorInFront': False, 'visible': True}
+>>>dataBar_2
+{'showBar': False, 'linewidth': 0.0, 'linestyle': 'None', 'capstyle': 'butt', 'facecolor': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'offset': 0}
+>>>dataStack_2
+{'showStack': False, 'linewidth': 0.0, 'linestyle': 'None', 'facecolor': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': ''}
+>>>resid_2
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'markerfacecolor': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>residZero_2
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 2.0, 'markersize': 14.0, 'marker': 'None'}
+>>>dataSet_3
+{'linewidth': 2.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'markerfacecolor': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>dataError_3
+{'color': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'linewidth': 2.0, 'linestyle': 'solid', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'fillstyle': 'full', 'errorInFront': False, 'visible': True}
+>>>dataBar_3
+{'showBar': False, 'linewidth': 0.0, 'linestyle': 'None', 'capstyle': 'butt', 'facecolor': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'offset': 0}
+>>>dataStack_3
+{'showStack': False, 'linewidth': 0.0, 'linestyle': 'None', 'facecolor': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': ''}
+>>>resid_3
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'markerfacecolor': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>residZero_3
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0]}
+>>>dataSet_4
+{'linewidth': 2.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'markerfacecolor': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>dataError_4
+{'color': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'linewidth': 2.0, 'linestyle': 'solid', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'fillstyle': 'full', 'errorInFront': False, 'visible': True}
+>>>dataBar_4
+{'showBar': False, 'linewidth': 0.0, 'linestyle': 'None', 'capstyle': 'butt', 'facecolor': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'offset': 0}
+>>>dataStack_4
+{'showStack': False, 'linewidth': 0.0, 'linestyle': 'None', 'facecolor': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': ''}
+>>>resid_4
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'markerfacecolor': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>residZero_4
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 2.0, 'markersize': 14.0, 'marker': 'None'}
+>>>dataSet_5
+{'linewidth': 1.0, 'linestyle': 'None', 'dash_capstyle': 'butt', 'color': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>dataError_5
+{'color': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'linewidth': 2.0, 'linestyle': 'solid', 'markerfacecolor': [0.89, 0.29, 0.2, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'fillstyle': 'full', 'errorInFront': False, 'visible': True}
+>>>dataBar_5
+{'showBar': False, 'linewidth': 0.5, 'linestyle': 'solid', 'capstyle': 'butt', 'facecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'width': 0.1, 'hatch': '', 'offset': 0}
+>>>dataStack_5
+{'showStack': False, 'linewidth': 0.5, 'linestyle': 'solid', 'facecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'edgecolor': [0.3, 0.3, 0.3, 1.0], 'hatch': ''}
+>>>resid_5
+{'linewidth': 1.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecolor': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 0.0, 'markersize': 14.0, 'marker': 'o', 'fillstyle': 'full'}
+>>>residZero_5
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 2.0, 'markersize': 14.0, 'marker': 'None'}
+>>>curve_0
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.0, 0.6392156862745098, 0.8627450980392157, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 14.0, 'marker': 'None', 'fillstyle': 'full'}
+>>>curve_1
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.00392156862745098, 0.3215686274509804, 0.42745098039215684, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 14.0, 'marker': 'None', 'fillstyle': 'full'}
+>>>curve_2
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.37254901960784315, 0.5686274509803921, 0.6588235294117647, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 14.0, 'marker': 'None', 'fillstyle': 'full'}
+>>>curve_3
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.6588235294117647, 0.6627450980392157, 0.6784313725490196, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 14.0, 'marker': 'None', 'fillstyle': 'full'}
+>>>curve_4
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.43137254901960786, 0.8156862745098039, 0.9686274509803922, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 1.0, 'markersize': 14.0, 'marker': 'None', 'fillstyle': 'full'}
+>>>curve_5
+{'linewidth': 2.0, 'linestyle': 'solid', 'dash_capstyle': 'butt', 'color': [0.5568627450980392, 0.7294117647058823, 0.25882352941176473, 1.0], 'markerfacecolor': [1.0, 1.0, 1.0, 1.0], 'markerfacecoloralt': [0.0, 0.0, 0.0, 1.0], 'markeredgecolor': [0.0, 0.0, 0.0, 1.0], 'markeredgewidth': 2.0, 'markersize': 14.0, 'marker': 'None', 'fillstyle': 'full'}
